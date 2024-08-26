@@ -131,7 +131,7 @@ int nn_ctcp_create (struct nn_ep *ep)
     self = nn_alloc (sizeof (struct nn_ctcp), "ctcp");
     alloc_assert (self);
 
-    /*  Initalise the endpoint. */
+    /*  Initialise the endpoint. */
     self->ep = ep;
     nn_ep_tran_setup (ep, &nn_ctcp_ep_ops, self);
 

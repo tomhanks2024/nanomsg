@@ -298,7 +298,7 @@ if (NN_ENABLE_DOC)
     endif ()
 endif ()
 
-# Build the documenation
+# Build the documentation
 if (NN_ENABLE_DOC)
 
     set (NN_DOCDIR ${CMAKE_CURRENT_SOURCE_DIR}/doc)
